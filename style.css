@@ -120,3 +120,37 @@ width: 100%;
 .shadow {
 box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
+
+@media (max-width: 770px) {
+
+h2 {
+font-size: 32px;
+text-align: center!important;
+}
+
+h1 {
+font-size: 48px;
+line-height: 1.5;
+}
+
+p {
+text-align: center!important;
+}
+
+.primary-link {
+display: block;
+text-align: center;
+margin: 0 20px;
+}
+
+.img-about {
+width: 100%;
+flex: 0 0 auto;
+}
+
+}
+
+.img-fluid {
+max-width: 100%;
+height: auto;
+}
